@@ -1,0 +1,683 @@
+{
+  "aggregates": {
+    "anchor_certainty_inflation_final": 0.125,
+    "anchor_cycles_until_half_mutated": 10,
+    "anchor_final_mutation_rate": 0.59,
+    "append_certainty_inflation_final": 0.28,
+    "append_cycles_until_half_mutated": 4,
+    "append_final_mutation_rate": 0.895,
+    "cosine_f1_at_default_threshold": 0.7153284671532847,
+    "regen_certainty_inflation_final": 0.38,
+    "regen_cycles_until_half_mutated": 2,
+    "regen_final_confabulations": 36,
+    "regen_final_mutation_rate": 0.99,
+    "regen_text_f1_at_default_threshold": 0.9872773536895675,
+    "survival_only_mutation_recall": 0.13559322033898305,
+    "text_best_f1": 0.8027210884353742,
+    "text_best_threshold": 0.99,
+    "text_f1_at_default_threshold": 0.7106227106227105,
+    "text_precision_at_default_threshold": 0.6258064516129033
+  },
+  "baselines_final_cycle": {
+    "anchor": {
+      "auditor": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "cycle": 12,
+      "survival_only": {
+        "f1": 0.23880597014925373,
+        "precision": 1.0,
+        "recall": 0.13559322033898305
+      },
+      "text_similarity": {
+        "f1": 0.7106227106227105,
+        "precision": 0.6258064516129033,
+        "recall": 0.8220338983050848,
+        "threshold": 0.85
+      },
+      "text_similarity_best": {
+        "f1": 0.8027210884353742,
+        "threshold": 0.99
+      },
+      "token_cosine": {
+        "f1": 0.7153284671532847,
+        "precision": 0.6282051282051282,
+        "recall": 0.8305084745762712,
+        "threshold": 0.9
+      }
+    },
+    "append": {
+      "auditor": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "cycle": 12,
+      "survival_only": {
+        "f1": 0.35023041474654376,
+        "precision": 1.0,
+        "recall": 0.2122905027932961
+      },
+      "text_similarity": {
+        "f1": 0.8831908831908832,
+        "precision": 0.9011627906976745,
+        "recall": 0.8659217877094972,
+        "threshold": 0.85
+      },
+      "text_similarity_best": {
+        "f1": 0.9546666666666667,
+        "threshold": 0.98
+      },
+      "token_cosine": {
+        "f1": 0.9111111111111111,
+        "precision": 0.9060773480662984,
+        "recall": 0.9162011173184358,
+        "threshold": 0.9
+      }
+    },
+    "regenerate": {
+      "auditor": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "cycle": 12,
+      "survival_only": {
+        "f1": 0.629757785467128,
+        "precision": 1.0,
+        "recall": 0.4595959595959596
+      },
+      "text_similarity": {
+        "f1": 0.9872773536895675,
+        "precision": 0.9948717948717949,
+        "recall": 0.9797979797979798,
+        "threshold": 0.85
+      },
+      "text_similarity_best": {
+        "f1": 0.9974811083123425,
+        "threshold": 0.8999999999999999
+      },
+      "token_cosine": {
+        "f1": 0.9974811083123425,
+        "precision": 0.9949748743718593,
+        "recall": 1.0,
+        "threshold": 0.9
+      }
+    }
+  },
+  "config": {
+    "cycles": 12,
+    "n_facts": 200,
+    "policies": [
+      "regenerate",
+      "append",
+      "anchor"
+    ],
+    "seed": 20261121
+  },
+  "policies": {
+    "anchor": {
+      "cycles_until_half_mutated": 10,
+      "final": {
+        "attribution_loss": 0.215,
+        "certainty_inflation": 0.125,
+        "confabulation": 0.0,
+        "cumulative_mutated_fraction": 0.59,
+        "cycle": 12,
+        "loss": 0.08,
+        "mean_severity": 0.3287,
+        "mutation_rate": 0.59,
+        "n_confabulations": 0,
+        "temporal_flattening": 0.155,
+        "value_drift": 0.175
+      },
+      "per_cycle": [
+        {
+          "attribution_loss": 0.0,
+          "certainty_inflation": 0.0,
+          "confabulation": 0.0,
+          "cumulative_mutated_fraction": 0.0,
+          "cycle": 0,
+          "loss": 0.0,
+          "mean_severity": 0.0,
+          "mutation_rate": 0.0,
+          "n_confabulations": 0,
+          "temporal_flattening": 0.0,
+          "value_drift": 0.0
+        },
+        {
+          "attribution_loss": 0.04,
+          "certainty_inflation": 0.01,
+          "confabulation": 0.0,
+          "cumulative_mutated_fraction": 0.1,
+          "cycle": 1,
+          "loss": 0.005,
+          "mean_severity": 0.0511,
+          "mutation_rate": 0.1,
+          "n_confabulations": 0,
+          "temporal_flattening": 0.015,
+          "value_drift": 0.035
+        },
+        {
+          "attribution_loss": 0.06,
+          "certainty_inflation": 0.02,
+          "confabulation": 0.0,
+          "cumulative_mutated_fraction": 0.15,
+          "cycle": 2,
+          "loss": 0.01,
+          "mean_severity": 0.0759,
+          "mutation_rate": 0.15,
+          "n_confabulations": 0,
+          "temporal_flattening": 0.025,
+          "value_drift": 0.04
+        },
+        {
+          "attribution_loss": 0.08,
+          "certainty_inflation": 0.025,
+          "confabulation": 0.0,
+          "cumulative_mutated_fraction": 0.2,
+          "cycle": 3,
+          "loss": 0.01,
+          "mean_severity": 0.1026,
+          "mutation_rate": 0.2,
+          "n_confabulations": 0,
+          "temporal_flattening": 0.04,
+          "value_drift": 0.06
+        },
+        {
+          "attribution_loss": 0.09,
+          "certainty_inflation": 0.04,
+          "confabulation": 0.0,
+          "cumulative_mutated_fraction": 0.255,
+          "cycle": 4,
+          "loss": 0.025,
+          "mean_severity": 0.1313,
+          "mutation_rate": 0.255,
+          "n_confabulations": 0,
+          "temporal_flattening": 0.06,
+          "value_drift": 0.07
+        },
+        {
+          "attribution_loss": 0.12,
+          "certainty_inflation": 0.045,
+          "confabulation": 0.0,
+          "cumulative_mutated_fraction": 0.315,
+          "cycle": 5,
+          "loss": 0.03,
+          "mean_severity": 0.1593,
+          "mutation_rate": 0.315,
+          "n_confabulations": 0,
+          "temporal_flattening": 0.085,
+          "value_drift": 0.08
+        },
+        {
+          "attribution_loss": 0.14,
+          "certainty_inflation": 0.055,
+          "confabulation": 0.0,
+          "cumulative_mutated_fraction": 0.345,
+          "cycle": 6,
+          "loss": 0.035,
+          "mean_severity": 0.175,
+          "mutation_rate": 0.345,
+          "n_confabulations": 0,
+          "temporal_flattening": 0.09,
+          "value_drift": 0.085
+        },
+        {
+          "attribution_loss": 0.15,
+          "certainty_inflation": 0.065,
+          "confabulation": 0.0,
+          "cumulative_mutated_fraction": 0.395,
+          "cycle": 7,
+          "loss": 0.045,
+          "mean_severity": 0.2062,
+          "mutation_rate": 0.395,
+          "n_confabulations": 0,
+          "temporal_flattening": 0.105,
+          "value_drift": 0.105
+        },
+        {
+          "attribution_loss": 0.16,
+          "certainty_inflation": 0.09,
+          "confabulation": 0.0,
+          "cumulative_mutated_fraction": 0.445,
+          "cycle": 8,
+          "loss": 0.055,
+          "mean_severity": 0.2413,
+          "mutation_rate": 0.445,
+          "n_confabulations": 0,
+          "temporal_flattening": 0.11,
+          "value_drift": 0.12
+        },
+        {
+          "attribution_loss": 0.175,
+          "certainty_inflation": 0.105,
+          "confabulation": 0.0,
+          "cumulative_mutated_fraction": 0.47,
+          "cycle": 9,
+          "loss": 0.065,
+          "mean_severity": 0.255,
+          "mutation_rate": 0.47,
+          "n_confabulations": 0,
+          "temporal_flattening": 0.125,
+          "value_drift": 0.12
+        },
+        {
+          "attribution_loss": 0.185,
+          "certainty_inflation": 0.12,
+          "confabulation": 0.0,
+          "cumulative_mutated_fraction": 0.515,
+          "cycle": 10,
+          "loss": 0.07,
+          "mean_severity": 0.2846,
+          "mutation_rate": 0.515,
+          "n_confabulations": 0,
+          "temporal_flattening": 0.135,
+          "value_drift": 0.14
+        },
+        {
+          "attribution_loss": 0.2,
+          "certainty_inflation": 0.12,
+          "confabulation": 0.0,
+          "cumulative_mutated_fraction": 0.55,
+          "cycle": 11,
+          "loss": 0.07,
+          "mean_severity": 0.3048,
+          "mutation_rate": 0.55,
+          "n_confabulations": 0,
+          "temporal_flattening": 0.15,
+          "value_drift": 0.155
+        },
+        {
+          "attribution_loss": 0.215,
+          "certainty_inflation": 0.125,
+          "confabulation": 0.0,
+          "cumulative_mutated_fraction": 0.59,
+          "cycle": 12,
+          "loss": 0.08,
+          "mean_severity": 0.3287,
+          "mutation_rate": 0.59,
+          "n_confabulations": 0,
+          "temporal_flattening": 0.155,
+          "value_drift": 0.175
+        }
+      ]
+    },
+    "append": {
+      "cycles_until_half_mutated": 4,
+      "final": {
+        "attribution_loss": 0.405,
+        "certainty_inflation": 0.28,
+        "confabulation": 0.06,
+        "cumulative_mutated_fraction": 0.895,
+        "cycle": 12,
+        "loss": 0.19,
+        "mean_severity": 0.5457,
+        "mutation_rate": 0.895,
+        "n_confabulations": 12,
+        "temporal_flattening": 0.275,
+        "value_drift": 0.32
+      },
+      "per_cycle": [
+        {
+          "attribution_loss": 0.0,
+          "certainty_inflation": 0.0,
+          "confabulation": 0.0,
+          "cumulative_mutated_fraction": 0.0,
+          "cycle": 0,
+          "loss": 0.0,
+          "mean_severity": 0.0,
+          "mutation_rate": 0.0,
+          "n_confabulations": 0,
+          "temporal_flattening": 0.0,
+          "value_drift": 0.0
+        },
+        {
+          "attribution_loss": 0.095,
+          "certainty_inflation": 0.04,
+          "confabulation": 0.005,
+          "cumulative_mutated_fraction": 0.205,
+          "cycle": 1,
+          "loss": 0.02,
+          "mean_severity": 0.1016,
+          "mutation_rate": 0.205,
+          "n_confabulations": 1,
+          "temporal_flattening": 0.035,
+          "value_drift": 0.045
+        },
+        {
+          "attribution_loss": 0.135,
+          "certainty_inflation": 0.06,
+          "confabulation": 0.01,
+          "cumulative_mutated_fraction": 0.355,
+          "cycle": 2,
+          "loss": 0.04,
+          "mean_severity": 0.1852,
+          "mutation_rate": 0.355,
+          "n_confabulations": 2,
+          "temporal_flattening": 0.07,
+          "value_drift": 0.09
+        },
+        {
+          "attribution_loss": 0.165,
+          "certainty_inflation": 0.09,
+          "confabulation": 0.015,
+          "cumulative_mutated_fraction": 0.45,
+          "cycle": 3,
+          "loss": 0.055,
+          "mean_severity": 0.2393,
+          "mutation_rate": 0.45,
+          "n_confabulations": 3,
+          "temporal_flattening": 0.11,
+          "value_drift": 0.11
+        },
+        {
+          "attribution_loss": 0.23,
+          "certainty_inflation": 0.12,
+          "confabulation": 0.02,
+          "cumulative_mutated_fraction": 0.545,
+          "cycle": 4,
+          "loss": 0.06,
+          "mean_severity": 0.2924,
+          "mutation_rate": 0.545,
+          "n_confabulations": 4,
+          "temporal_flattening": 0.13,
+          "value_drift": 0.135
+        },
+        {
+          "attribution_loss": 0.265,
+          "certainty_inflation": 0.14,
+          "confabulation": 0.025,
+          "cumulative_mutated_fraction": 0.62,
+          "cycle": 5,
+          "loss": 0.065,
+          "mean_severity": 0.3406,
+          "mutation_rate": 0.62,
+          "n_confabulations": 5,
+          "temporal_flattening": 0.15,
+          "value_drift": 0.175
+        },
+        {
+          "attribution_loss": 0.275,
+          "certainty_inflation": 0.17,
+          "confabulation": 0.03,
+          "cumulative_mutated_fraction": 0.65,
+          "cycle": 6,
+          "loss": 0.08,
+          "mean_severity": 0.3671,
+          "mutation_rate": 0.65,
+          "n_confabulations": 6,
+          "temporal_flattening": 0.185,
+          "value_drift": 0.19
+        },
+        {
+          "attribution_loss": 0.295,
+          "certainty_inflation": 0.185,
+          "confabulation": 0.035,
+          "cumulative_mutated_fraction": 0.72,
+          "cycle": 7,
+          "loss": 0.1,
+          "mean_severity": 0.4028,
+          "mutation_rate": 0.72,
+          "n_confabulations": 7,
+          "temporal_flattening": 0.195,
+          "value_drift": 0.205
+        },
+        {
+          "attribution_loss": 0.33,
+          "certainty_inflation": 0.21,
+          "confabulation": 0.04,
+          "cumulative_mutated_fraction": 0.77,
+          "cycle": 8,
+          "loss": 0.11,
+          "mean_severity": 0.4369,
+          "mutation_rate": 0.77,
+          "n_confabulations": 8,
+          "temporal_flattening": 0.215,
+          "value_drift": 0.225
+        },
+        {
+          "attribution_loss": 0.35,
+          "certainty_inflation": 0.23,
+          "confabulation": 0.045,
+          "cumulative_mutated_fraction": 0.81,
+          "cycle": 9,
+          "loss": 0.12,
+          "mean_severity": 0.4728,
+          "mutation_rate": 0.81,
+          "n_confabulations": 9,
+          "temporal_flattening": 0.25,
+          "value_drift": 0.27
+        },
+        {
+          "attribution_loss": 0.375,
+          "certainty_inflation": 0.24,
+          "confabulation": 0.05,
+          "cumulative_mutated_fraction": 0.83,
+          "cycle": 10,
+          "loss": 0.14,
+          "mean_severity": 0.486,
+          "mutation_rate": 0.83,
+          "n_confabulations": 10,
+          "temporal_flattening": 0.265,
+          "value_drift": 0.275
+        },
+        {
+          "attribution_loss": 0.385,
+          "certainty_inflation": 0.255,
+          "confabulation": 0.055,
+          "cumulative_mutated_fraction": 0.865,
+          "cycle": 11,
+          "loss": 0.165,
+          "mean_severity": 0.5151,
+          "mutation_rate": 0.865,
+          "n_confabulations": 11,
+          "temporal_flattening": 0.28,
+          "value_drift": 0.29
+        },
+        {
+          "attribution_loss": 0.405,
+          "certainty_inflation": 0.28,
+          "confabulation": 0.06,
+          "cumulative_mutated_fraction": 0.895,
+          "cycle": 12,
+          "loss": 0.19,
+          "mean_severity": 0.5457,
+          "mutation_rate": 0.895,
+          "n_confabulations": 12,
+          "temporal_flattening": 0.275,
+          "value_drift": 0.32
+        }
+      ]
+    },
+    "regenerate": {
+      "cycles_until_half_mutated": 2,
+      "final": {
+        "attribution_loss": 0.48,
+        "certainty_inflation": 0.38,
+        "confabulation": 0.18,
+        "cumulative_mutated_fraction": 0.99,
+        "cycle": 12,
+        "loss": 0.455,
+        "mean_severity": 0.6483,
+        "mutation_rate": 0.99,
+        "n_confabulations": 36,
+        "temporal_flattening": 0.45,
+        "value_drift": 0.395
+      },
+      "per_cycle": [
+        {
+          "attribution_loss": 0.0,
+          "certainty_inflation": 0.0,
+          "confabulation": 0.0,
+          "cumulative_mutated_fraction": 0.0,
+          "cycle": 0,
+          "loss": 0.0,
+          "mean_severity": 0.0,
+          "mutation_rate": 0.0,
+          "n_confabulations": 0,
+          "temporal_flattening": 0.0,
+          "value_drift": 0.0
+        },
+        {
+          "attribution_loss": 0.15,
+          "certainty_inflation": 0.105,
+          "confabulation": 0.015,
+          "cumulative_mutated_fraction": 0.415,
+          "cycle": 1,
+          "loss": 0.045,
+          "mean_severity": 0.2267,
+          "mutation_rate": 0.415,
+          "n_confabulations": 3,
+          "temporal_flattening": 0.105,
+          "value_drift": 0.1
+        },
+        {
+          "attribution_loss": 0.21,
+          "certainty_inflation": 0.175,
+          "confabulation": 0.03,
+          "cumulative_mutated_fraction": 0.655,
+          "cycle": 2,
+          "loss": 0.1,
+          "mean_severity": 0.3717,
+          "mutation_rate": 0.655,
+          "n_confabulations": 6,
+          "temporal_flattening": 0.23,
+          "value_drift": 0.18
+        },
+        {
+          "attribution_loss": 0.29,
+          "certainty_inflation": 0.245,
+          "confabulation": 0.045,
+          "cumulative_mutated_fraction": 0.785,
+          "cycle": 3,
+          "loss": 0.14,
+          "mean_severity": 0.4592,
+          "mutation_rate": 0.785,
+          "n_confabulations": 9,
+          "temporal_flattening": 0.295,
+          "value_drift": 0.225
+        },
+        {
+          "attribution_loss": 0.345,
+          "certainty_inflation": 0.29,
+          "confabulation": 0.06,
+          "cumulative_mutated_fraction": 0.845,
+          "cycle": 4,
+          "loss": 0.2,
+          "mean_severity": 0.5083,
+          "mutation_rate": 0.845,
+          "n_confabulations": 12,
+          "temporal_flattening": 0.365,
+          "value_drift": 0.255
+        },
+        {
+          "attribution_loss": 0.41,
+          "certainty_inflation": 0.31,
+          "confabulation": 0.075,
+          "cumulative_mutated_fraction": 0.89,
+          "cycle": 5,
+          "loss": 0.23,
+          "mean_severity": 0.5464,
+          "mutation_rate": 0.89,
+          "n_confabulations": 15,
+          "temporal_flattening": 0.395,
+          "value_drift": 0.295
+        },
+        {
+          "attribution_loss": 0.45,
+          "certainty_inflation": 0.32,
+          "confabulation": 0.09,
+          "cumulative_mutated_fraction": 0.94,
+          "cycle": 6,
+          "loss": 0.295,
+          "mean_severity": 0.5838,
+          "mutation_rate": 0.94,
+          "n_confabulations": 18,
+          "temporal_flattening": 0.395,
+          "value_drift": 0.32
+        },
+        {
+          "attribution_loss": 0.45,
+          "certainty_inflation": 0.325,
+          "confabulation": 0.105,
+          "cumulative_mutated_fraction": 0.965,
+          "cycle": 7,
+          "loss": 0.335,
+          "mean_severity": 0.6062,
+          "mutation_rate": 0.965,
+          "n_confabulations": 21,
+          "temporal_flattening": 0.435,
+          "value_drift": 0.34
+        },
+        {
+          "attribution_loss": 0.455,
+          "certainty_inflation": 0.345,
+          "confabulation": 0.12,
+          "cumulative_mutated_fraction": 0.975,
+          "cycle": 8,
+          "loss": 0.38,
+          "mean_severity": 0.6231,
+          "mutation_rate": 0.975,
+          "n_confabulations": 24,
+          "temporal_flattening": 0.44,
+          "value_drift": 0.35
+        },
+        {
+          "attribution_loss": 0.455,
+          "certainty_inflation": 0.39,
+          "confabulation": 0.135,
+          "cumulative_mutated_fraction": 0.985,
+          "cycle": 9,
+          "loss": 0.395,
+          "mean_severity": 0.6391,
+          "mutation_rate": 0.985,
+          "n_confabulations": 27,
+          "temporal_flattening": 0.45,
+          "value_drift": 0.36
+        },
+        {
+          "attribution_loss": 0.46,
+          "certainty_inflation": 0.375,
+          "confabulation": 0.15,
+          "cumulative_mutated_fraction": 0.985,
+          "cycle": 10,
+          "loss": 0.435,
+          "mean_severity": 0.6377,
+          "mutation_rate": 0.985,
+          "n_confabulations": 30,
+          "temporal_flattening": 0.44,
+          "value_drift": 0.35
+        },
+        {
+          "attribution_loss": 0.455,
+          "certainty_inflation": 0.38,
+          "confabulation": 0.165,
+          "cumulative_mutated_fraction": 0.99,
+          "cycle": 11,
+          "loss": 0.45,
+          "mean_severity": 0.6418,
+          "mutation_rate": 0.99,
+          "n_confabulations": 33,
+          "temporal_flattening": 0.445,
+          "value_drift": 0.37
+        },
+        {
+          "attribution_loss": 0.48,
+          "certainty_inflation": 0.38,
+          "confabulation": 0.18,
+          "cumulative_mutated_fraction": 0.99,
+          "cycle": 12,
+          "loss": 0.455,
+          "mean_severity": 0.6483,
+          "mutation_rate": 0.99,
+          "n_confabulations": 36,
+          "temporal_flattening": 0.45,
+          "value_drift": 0.395
+        }
+      ]
+    }
+  }
+}
