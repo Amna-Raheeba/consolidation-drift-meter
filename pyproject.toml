@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "consolidation-drift-meter"
+version = "0.1.0"
+description = "A typed drift audit of iterative memory consolidation: diffs agent memory facts against ground truth after every consolidation cycle and classifies each mutation (loss, value drift, certainty inflation, attribution loss, temporal flattening, confabulation) with severity scoring."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Amna Raheeba" }]
+
+[tool.setuptools]
+packages = ["consolidation_drift"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
