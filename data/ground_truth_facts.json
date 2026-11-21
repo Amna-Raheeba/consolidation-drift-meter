@@ -1,0 +1,3602 @@
+[
+  {
+    "fact_id": "fact-001",
+    "subject": "project Atlas",
+    "attribute": "deadline",
+    "value": "2026-02-11",
+    "certainty": 0,
+    "source": "project document",
+    "timestamp": 42,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-03-14",
+      "2026-04-02",
+      "2026-05-21"
+    ],
+    "origin_id": "fact-001"
+  },
+  {
+    "fact_id": "fact-002",
+    "subject": "project Atlas",
+    "attribute": "lead engineer",
+    "value": "Priya Nair",
+    "certainty": 0,
+    "source": "sensor log",
+    "timestamp": 82,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "Sara Iqbal",
+      "Tom Meyer",
+      "Jonas Weber"
+    ],
+    "origin_id": "fact-002"
+  },
+  {
+    "fact_id": "fact-003",
+    "subject": "project Atlas",
+    "attribute": "status",
+    "value": "blocked",
+    "certainty": 1,
+    "source": "sensor log",
+    "timestamp": 186,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "on track",
+      "at risk",
+      "in review"
+    ],
+    "origin_id": "fact-003"
+  },
+  {
+    "fact_id": "fact-004",
+    "subject": "project Atlas",
+    "attribute": "budget remaining",
+    "value": "9,800 USD",
+    "certainty": 1,
+    "source": "system monitor",
+    "timestamp": 59,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": true,
+    "alternatives": [
+      "42,000 USD",
+      "18,500 USD",
+      "67,250 USD"
+    ],
+    "origin_id": "fact-004"
+  },
+  {
+    "fact_id": "fact-005",
+    "subject": "project Beacon",
+    "attribute": "deadline",
+    "value": "2026-03-08",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 40,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "2026-01-19",
+      "2026-07-15",
+      "2026-09-01"
+    ],
+    "origin_id": "fact-005"
+  },
+  {
+    "fact_id": "fact-006",
+    "subject": "project Beacon",
+    "attribute": "status",
+    "value": "blocked",
+    "certainty": 0,
+    "source": "sensor log",
+    "timestamp": 107,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "on track",
+      "at risk",
+      "in review"
+    ],
+    "origin_id": "fact-006"
+  },
+  {
+    "fact_id": "fact-007",
+    "subject": "project Beacon",
+    "attribute": "repository host",
+    "value": "Bitbucket",
+    "certainty": 0,
+    "source": "system monitor",
+    "timestamp": 220,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "GitHub",
+      "GitLab",
+      "self-hosted"
+    ],
+    "origin_id": "fact-007"
+  },
+  {
+    "fact_id": "fact-008",
+    "subject": "clinic ward 4",
+    "attribute": "bed occupancy",
+    "value": "31 of 40",
+    "certainty": 0,
+    "source": "system monitor",
+    "timestamp": 89,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "38 of 40",
+      "22 of 40",
+      "40 of 40"
+    ],
+    "origin_id": "fact-008"
+  },
+  {
+    "fact_id": "fact-009",
+    "subject": "clinic ward 4",
+    "attribute": "night nurse",
+    "value": "Maria Garcia",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 196,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "Ayesha Khan",
+      "Chen Wei",
+      "Fatima Noor"
+    ],
+    "origin_id": "fact-009"
+  },
+  {
+    "fact_id": "fact-010",
+    "subject": "clinic ward 4",
+    "attribute": "isolation rooms free",
+    "value": "3",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 135,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "0",
+      "1",
+      "2"
+    ],
+    "origin_id": "fact-010"
+  },
+  {
+    "fact_id": "fact-011",
+    "subject": "server db-01",
+    "attribute": "disk usage",
+    "value": "92%",
+    "certainty": 0,
+    "source": "system monitor",
+    "timestamp": 124,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": true,
+    "alternatives": [
+      "61%",
+      "74%",
+      "83%"
+    ],
+    "origin_id": "fact-011"
+  },
+  {
+    "fact_id": "fact-012",
+    "subject": "server db-01",
+    "attribute": "backup status",
+    "value": "skipped",
+    "certainty": 2,
+    "source": "team message",
+    "timestamp": 246,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "completed",
+      "failed",
+      "running"
+    ],
+    "origin_id": "fact-012"
+  },
+  {
+    "fact_id": "fact-013",
+    "subject": "server db-01",
+    "attribute": "maintenance window",
+    "value": "Friday 03:00",
+    "certainty": 0,
+    "source": "system monitor",
+    "timestamp": 185,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "Sunday 02:00",
+      "Saturday 23:00",
+      "Wednesday 01:00"
+    ],
+    "origin_id": "fact-013"
+  },
+  {
+    "fact_id": "fact-014",
+    "subject": "server web-02",
+    "attribute": "disk usage",
+    "value": "38%",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 175,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "55%",
+      "69%",
+      "81%"
+    ],
+    "origin_id": "fact-014"
+  },
+  {
+    "fact_id": "fact-015",
+    "subject": "server web-02",
+    "attribute": "tls certificate expiry",
+    "value": "2027-01-10",
+    "certainty": 2,
+    "source": "sensor log",
+    "timestamp": 157,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "2026-05-01",
+      "2026-08-19",
+      "2026-12-02"
+    ],
+    "origin_id": "fact-015"
+  },
+  {
+    "fact_id": "fact-016",
+    "subject": "user",
+    "attribute": "preferred language",
+    "value": "Urdu",
+    "certainty": 1,
+    "source": "system monitor",
+    "timestamp": 201,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "English",
+      "German",
+      "Spanish"
+    ],
+    "origin_id": "fact-016"
+  },
+  {
+    "fact_id": "fact-017",
+    "subject": "user",
+    "attribute": "meeting preference",
+    "value": "evenings",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 15,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "mornings",
+      "afternoons",
+      "no Fridays"
+    ],
+    "origin_id": "fact-017"
+  },
+  {
+    "fact_id": "fact-018",
+    "subject": "user",
+    "attribute": "dietary restriction",
+    "value": "gluten-free",
+    "certainty": 2,
+    "source": "team message",
+    "timestamp": 292,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": true,
+    "alternatives": [
+      "none",
+      "vegetarian",
+      "halal"
+    ],
+    "origin_id": "fact-018"
+  },
+  {
+    "fact_id": "fact-019",
+    "subject": "user",
+    "attribute": "home city",
+    "value": "Multan",
+    "certainty": 0,
+    "source": "sensor log",
+    "timestamp": 251,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "Faisalabad",
+      "Lahore",
+      "Karachi"
+    ],
+    "origin_id": "fact-019"
+  },
+  {
+    "fact_id": "fact-020",
+    "subject": "team lead",
+    "attribute": "review day",
+    "value": "Monday",
+    "certainty": 2,
+    "source": "user statement",
+    "timestamp": 194,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "origin_id": "fact-020"
+  },
+  {
+    "fact_id": "fact-021",
+    "subject": "team lead",
+    "attribute": "standup time",
+    "value": "10:00",
+    "certainty": 0,
+    "source": "user statement",
+    "timestamp": 20,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "09:00",
+      "09:30",
+      "10:30"
+    ],
+    "origin_id": "fact-021"
+  },
+  {
+    "fact_id": "fact-022",
+    "subject": "supplier Helix",
+    "attribute": "contract renewal",
+    "value": "2026-06-19",
+    "certainty": 0,
+    "source": "system monitor",
+    "timestamp": 237,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-04-15",
+      "2026-10-01",
+      "2027-02-28"
+    ],
+    "origin_id": "fact-022"
+  },
+  {
+    "fact_id": "fact-023",
+    "subject": "supplier Helix",
+    "attribute": "payment terms",
+    "value": "net 15",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 252,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "net 30",
+      "net 45",
+      "net 60"
+    ],
+    "origin_id": "fact-023"
+  },
+  {
+    "fact_id": "fact-024",
+    "subject": "lab printer",
+    "attribute": "toner level",
+    "value": "90%",
+    "certainty": 2,
+    "source": "project document",
+    "timestamp": 31,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "12%",
+      "35%",
+      "58%"
+    ],
+    "origin_id": "fact-024"
+  },
+  {
+    "fact_id": "fact-025",
+    "subject": "lab printer",
+    "attribute": "location",
+    "value": "room 312",
+    "certainty": 1,
+    "source": "user statement",
+    "timestamp": 156,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": true,
+    "alternatives": [
+      "room 204",
+      "room 118",
+      "library annex"
+    ],
+    "origin_id": "fact-025"
+  },
+  {
+    "fact_id": "fact-026",
+    "subject": "field sensor S7",
+    "attribute": "battery level",
+    "value": "9%",
+    "certainty": 2,
+    "source": "sensor log",
+    "timestamp": 26,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "23%",
+      "41%",
+      "66%"
+    ],
+    "origin_id": "fact-026"
+  },
+  {
+    "fact_id": "fact-027",
+    "subject": "field sensor S7",
+    "attribute": "last calibration",
+    "value": "2026-04-21",
+    "certainty": 1,
+    "source": "user statement",
+    "timestamp": 18,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-01-05",
+      "2026-02-17",
+      "2026-03-29"
+    ],
+    "origin_id": "fact-027"
+  },
+  {
+    "fact_id": "fact-028",
+    "subject": "course CS-501",
+    "attribute": "exam date",
+    "value": "2026-05-25",
+    "certainty": 1,
+    "source": "sensor log",
+    "timestamp": 85,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-05-11",
+      "2026-06-03",
+      "2026-04-27"
+    ],
+    "origin_id": "fact-028"
+  },
+  {
+    "fact_id": "fact-029",
+    "subject": "course CS-501",
+    "attribute": "lecturer",
+    "value": "Dr. Adeyemi",
+    "certainty": 2,
+    "source": "project document",
+    "timestamp": 151,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "Dr. Hamid",
+      "Dr. Kanwal",
+      "Dr. Reyes"
+    ],
+    "origin_id": "fact-029"
+  },
+  {
+    "fact_id": "fact-030",
+    "subject": "office",
+    "attribute": "fire drill date",
+    "value": "2026-05-08",
+    "certainty": 0,
+    "source": "system monitor",
+    "timestamp": 58,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "2026-02-20",
+      "2026-03-13",
+      "2026-09-18"
+    ],
+    "origin_id": "fact-030"
+  },
+  {
+    "fact_id": "fact-031",
+    "subject": "project Atlas (unit 2)",
+    "attribute": "deadline",
+    "value": "2026-02-11",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 160,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "2026-03-14",
+      "2026-04-02",
+      "2026-05-21"
+    ],
+    "origin_id": "fact-031"
+  },
+  {
+    "fact_id": "fact-032",
+    "subject": "project Atlas (unit 2)",
+    "attribute": "lead engineer",
+    "value": "Tom Meyer",
+    "certainty": 1,
+    "source": "system monitor",
+    "timestamp": 119,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": true,
+    "alternatives": [
+      "Sara Iqbal",
+      "Priya Nair",
+      "Jonas Weber"
+    ],
+    "origin_id": "fact-032"
+  },
+  {
+    "fact_id": "fact-033",
+    "subject": "project Atlas (unit 2)",
+    "attribute": "status",
+    "value": "at risk",
+    "certainty": 2,
+    "source": "team message",
+    "timestamp": 53,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "on track",
+      "blocked",
+      "in review"
+    ],
+    "origin_id": "fact-033"
+  },
+  {
+    "fact_id": "fact-034",
+    "subject": "project Atlas (unit 2)",
+    "attribute": "budget remaining",
+    "value": "51,000 USD",
+    "certainty": 2,
+    "source": "user statement",
+    "timestamp": 292,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "42,000 USD",
+      "18,500 USD",
+      "67,250 USD"
+    ],
+    "origin_id": "fact-034"
+  },
+  {
+    "fact_id": "fact-035",
+    "subject": "project Beacon (unit 2)",
+    "attribute": "deadline",
+    "value": "2026-03-08",
+    "certainty": 2,
+    "source": "project document",
+    "timestamp": 114,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-01-19",
+      "2026-07-15",
+      "2026-09-01"
+    ],
+    "origin_id": "fact-035"
+  },
+  {
+    "fact_id": "fact-036",
+    "subject": "project Beacon (unit 2)",
+    "attribute": "status",
+    "value": "blocked",
+    "certainty": 1,
+    "source": "system monitor",
+    "timestamp": 196,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "on track",
+      "at risk",
+      "in review"
+    ],
+    "origin_id": "fact-036"
+  },
+  {
+    "fact_id": "fact-037",
+    "subject": "project Beacon (unit 2)",
+    "attribute": "repository host",
+    "value": "Bitbucket",
+    "certainty": 0,
+    "source": "sensor log",
+    "timestamp": 263,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "GitHub",
+      "GitLab",
+      "self-hosted"
+    ],
+    "origin_id": "fact-037"
+  },
+  {
+    "fact_id": "fact-038",
+    "subject": "clinic ward 4 (unit 2)",
+    "attribute": "bed occupancy",
+    "value": "38 of 40",
+    "certainty": 2,
+    "source": "system monitor",
+    "timestamp": 189,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "31 of 40",
+      "22 of 40",
+      "40 of 40"
+    ],
+    "origin_id": "fact-038"
+  },
+  {
+    "fact_id": "fact-039",
+    "subject": "clinic ward 4 (unit 2)",
+    "attribute": "night nurse",
+    "value": "Olga Petrova",
+    "certainty": 2,
+    "source": "team message",
+    "timestamp": 36,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": true,
+    "alternatives": [
+      "Ayesha Khan",
+      "Maria Garcia",
+      "Chen Wei"
+    ],
+    "origin_id": "fact-039"
+  },
+  {
+    "fact_id": "fact-040",
+    "subject": "clinic ward 4 (unit 2)",
+    "attribute": "isolation rooms free",
+    "value": "4",
+    "certainty": 2,
+    "source": "sensor log",
+    "timestamp": 283,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "0",
+      "1",
+      "2"
+    ],
+    "origin_id": "fact-040"
+  },
+  {
+    "fact_id": "fact-041",
+    "subject": "server db-01 (unit 2)",
+    "attribute": "disk usage",
+    "value": "83%",
+    "certainty": 1,
+    "source": "user statement",
+    "timestamp": 41,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "61%",
+      "74%",
+      "47%"
+    ],
+    "origin_id": "fact-041"
+  },
+  {
+    "fact_id": "fact-042",
+    "subject": "server db-01 (unit 2)",
+    "attribute": "backup status",
+    "value": "partial",
+    "certainty": 1,
+    "source": "user statement",
+    "timestamp": 137,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "completed",
+      "failed",
+      "running"
+    ],
+    "origin_id": "fact-042"
+  },
+  {
+    "fact_id": "fact-043",
+    "subject": "server db-01 (unit 2)",
+    "attribute": "maintenance window",
+    "value": "Friday 03:00",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 62,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "Sunday 02:00",
+      "Saturday 23:00",
+      "Wednesday 01:00"
+    ],
+    "origin_id": "fact-043"
+  },
+  {
+    "fact_id": "fact-044",
+    "subject": "server web-02 (unit 2)",
+    "attribute": "disk usage",
+    "value": "38%",
+    "certainty": 1,
+    "source": "user statement",
+    "timestamp": 271,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "55%",
+      "69%",
+      "81%"
+    ],
+    "origin_id": "fact-044"
+  },
+  {
+    "fact_id": "fact-045",
+    "subject": "server web-02 (unit 2)",
+    "attribute": "tls certificate expiry",
+    "value": "2026-03-27",
+    "certainty": 2,
+    "source": "sensor log",
+    "timestamp": 8,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "2026-05-01",
+      "2026-08-19",
+      "2027-01-10"
+    ],
+    "origin_id": "fact-045"
+  },
+  {
+    "fact_id": "fact-046",
+    "subject": "user (unit 2)",
+    "attribute": "preferred language",
+    "value": "Spanish",
+    "certainty": 1,
+    "source": "system monitor",
+    "timestamp": 266,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": true,
+    "alternatives": [
+      "English",
+      "Urdu",
+      "German"
+    ],
+    "origin_id": "fact-046"
+  },
+  {
+    "fact_id": "fact-047",
+    "subject": "user (unit 2)",
+    "attribute": "meeting preference",
+    "value": "mornings",
+    "certainty": 2,
+    "source": "project document",
+    "timestamp": 52,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "afternoons",
+      "evenings",
+      "no Fridays"
+    ],
+    "origin_id": "fact-047"
+  },
+  {
+    "fact_id": "fact-048",
+    "subject": "user (unit 2)",
+    "attribute": "dietary restriction",
+    "value": "halal",
+    "certainty": 0,
+    "source": "project document",
+    "timestamp": 27,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "none",
+      "vegetarian",
+      "gluten-free"
+    ],
+    "origin_id": "fact-048"
+  },
+  {
+    "fact_id": "fact-049",
+    "subject": "user (unit 2)",
+    "attribute": "home city",
+    "value": "Karachi",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 149,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "Faisalabad",
+      "Lahore",
+      "Islamabad"
+    ],
+    "origin_id": "fact-049"
+  },
+  {
+    "fact_id": "fact-050",
+    "subject": "team lead (unit 2)",
+    "attribute": "review day",
+    "value": "Thursday",
+    "certainty": 0,
+    "source": "sensor log",
+    "timestamp": 180,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "Monday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "origin_id": "fact-050"
+  },
+  {
+    "fact_id": "fact-051",
+    "subject": "team lead (unit 2)",
+    "attribute": "standup time",
+    "value": "10:30",
+    "certainty": 1,
+    "source": "system monitor",
+    "timestamp": 246,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "09:00",
+      "09:30",
+      "10:00"
+    ],
+    "origin_id": "fact-051"
+  },
+  {
+    "fact_id": "fact-052",
+    "subject": "supplier Helix (unit 2)",
+    "attribute": "contract renewal",
+    "value": "2027-02-28",
+    "certainty": 1,
+    "source": "sensor log",
+    "timestamp": 171,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-04-15",
+      "2026-10-01",
+      "2026-08-08"
+    ],
+    "origin_id": "fact-052"
+  },
+  {
+    "fact_id": "fact-053",
+    "subject": "supplier Helix (unit 2)",
+    "attribute": "payment terms",
+    "value": "net 60",
+    "certainty": 1,
+    "source": "sensor log",
+    "timestamp": 148,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": true,
+    "alternatives": [
+      "net 30",
+      "net 45",
+      "on delivery"
+    ],
+    "origin_id": "fact-053"
+  },
+  {
+    "fact_id": "fact-054",
+    "subject": "lab printer (unit 2)",
+    "attribute": "toner level",
+    "value": "77%",
+    "certainty": 1,
+    "source": "user statement",
+    "timestamp": 116,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "12%",
+      "35%",
+      "58%"
+    ],
+    "origin_id": "fact-054"
+  },
+  {
+    "fact_id": "fact-055",
+    "subject": "lab printer (unit 2)",
+    "attribute": "location",
+    "value": "room 118",
+    "certainty": 0,
+    "source": "system monitor",
+    "timestamp": 234,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "room 204",
+      "room 312",
+      "library annex"
+    ],
+    "origin_id": "fact-055"
+  },
+  {
+    "fact_id": "fact-056",
+    "subject": "field sensor S7 (unit 2)",
+    "attribute": "battery level",
+    "value": "66%",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 276,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "23%",
+      "41%",
+      "88%"
+    ],
+    "origin_id": "fact-056"
+  },
+  {
+    "fact_id": "fact-057",
+    "subject": "field sensor S7 (unit 2)",
+    "attribute": "last calibration",
+    "value": "2026-03-29",
+    "certainty": 2,
+    "source": "user statement",
+    "timestamp": 231,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "2026-01-05",
+      "2026-02-17",
+      "2025-12-12"
+    ],
+    "origin_id": "fact-057"
+  },
+  {
+    "fact_id": "fact-058",
+    "subject": "course CS-501 (unit 2)",
+    "attribute": "exam date",
+    "value": "2026-05-25",
+    "certainty": 0,
+    "source": "team message",
+    "timestamp": 72,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "2026-05-11",
+      "2026-06-03",
+      "2026-04-27"
+    ],
+    "origin_id": "fact-058"
+  },
+  {
+    "fact_id": "fact-059",
+    "subject": "course CS-501 (unit 2)",
+    "attribute": "lecturer",
+    "value": "Dr. Hamid",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 89,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "Dr. Kanwal",
+      "Dr. Reyes",
+      "Dr. Novak"
+    ],
+    "origin_id": "fact-059"
+  },
+  {
+    "fact_id": "fact-060",
+    "subject": "office (unit 2)",
+    "attribute": "fire drill date",
+    "value": "2026-09-18",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 122,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": true,
+    "alternatives": [
+      "2026-02-20",
+      "2026-03-13",
+      "2026-05-08"
+    ],
+    "origin_id": "fact-060"
+  },
+  {
+    "fact_id": "fact-061",
+    "subject": "project Atlas (unit 3)",
+    "attribute": "deadline",
+    "value": "2026-04-02",
+    "certainty": 2,
+    "source": "team message",
+    "timestamp": 143,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "2026-03-14",
+      "2026-05-21",
+      "2026-06-30"
+    ],
+    "origin_id": "fact-061"
+  },
+  {
+    "fact_id": "fact-062",
+    "subject": "project Atlas (unit 3)",
+    "attribute": "lead engineer",
+    "value": "Priya Nair",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 3,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "Sara Iqbal",
+      "Tom Meyer",
+      "Jonas Weber"
+    ],
+    "origin_id": "fact-062"
+  },
+  {
+    "fact_id": "fact-063",
+    "subject": "project Atlas (unit 3)",
+    "attribute": "status",
+    "value": "in review",
+    "certainty": 0,
+    "source": "team message",
+    "timestamp": 211,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "on track",
+      "at risk",
+      "blocked"
+    ],
+    "origin_id": "fact-063"
+  },
+  {
+    "fact_id": "fact-064",
+    "subject": "project Atlas (unit 3)",
+    "attribute": "budget remaining",
+    "value": "51,000 USD",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 16,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "42,000 USD",
+      "18,500 USD",
+      "67,250 USD"
+    ],
+    "origin_id": "fact-064"
+  },
+  {
+    "fact_id": "fact-065",
+    "subject": "project Beacon (unit 3)",
+    "attribute": "deadline",
+    "value": "2026-01-19",
+    "certainty": 2,
+    "source": "system monitor",
+    "timestamp": 205,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "2026-03-08",
+      "2026-07-15",
+      "2026-09-01"
+    ],
+    "origin_id": "fact-065"
+  },
+  {
+    "fact_id": "fact-066",
+    "subject": "project Beacon (unit 3)",
+    "attribute": "status",
+    "value": "blocked",
+    "certainty": 0,
+    "source": "user statement",
+    "timestamp": 206,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "on track",
+      "at risk",
+      "in review"
+    ],
+    "origin_id": "fact-066"
+  },
+  {
+    "fact_id": "fact-067",
+    "subject": "project Beacon (unit 3)",
+    "attribute": "repository host",
+    "value": "Codeberg",
+    "certainty": 0,
+    "source": "user statement",
+    "timestamp": 229,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": true,
+    "alternatives": [
+      "GitHub",
+      "GitLab",
+      "Bitbucket"
+    ],
+    "origin_id": "fact-067"
+  },
+  {
+    "fact_id": "fact-068",
+    "subject": "clinic ward 4 (unit 3)",
+    "attribute": "bed occupancy",
+    "value": "38 of 40",
+    "certainty": 1,
+    "source": "user statement",
+    "timestamp": 170,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "31 of 40",
+      "22 of 40",
+      "40 of 40"
+    ],
+    "origin_id": "fact-068"
+  },
+  {
+    "fact_id": "fact-069",
+    "subject": "clinic ward 4 (unit 3)",
+    "attribute": "night nurse",
+    "value": "Olga Petrova",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 262,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "Ayesha Khan",
+      "Maria Garcia",
+      "Chen Wei"
+    ],
+    "origin_id": "fact-069"
+  },
+  {
+    "fact_id": "fact-070",
+    "subject": "clinic ward 4 (unit 3)",
+    "attribute": "isolation rooms free",
+    "value": "1",
+    "certainty": 2,
+    "source": "user statement",
+    "timestamp": 283,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "0",
+      "2",
+      "3"
+    ],
+    "origin_id": "fact-070"
+  },
+  {
+    "fact_id": "fact-071",
+    "subject": "server db-01 (unit 3)",
+    "attribute": "disk usage",
+    "value": "61%",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 105,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "74%",
+      "83%",
+      "47%"
+    ],
+    "origin_id": "fact-071"
+  },
+  {
+    "fact_id": "fact-072",
+    "subject": "server db-01 (unit 3)",
+    "attribute": "backup status",
+    "value": "skipped",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 231,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "completed",
+      "failed",
+      "running"
+    ],
+    "origin_id": "fact-072"
+  },
+  {
+    "fact_id": "fact-073",
+    "subject": "server db-01 (unit 3)",
+    "attribute": "maintenance window",
+    "value": "Sunday 02:00",
+    "certainty": 0,
+    "source": "user statement",
+    "timestamp": 189,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "Saturday 23:00",
+      "Wednesday 01:00",
+      "Friday 03:00"
+    ],
+    "origin_id": "fact-073"
+  },
+  {
+    "fact_id": "fact-074",
+    "subject": "server web-02 (unit 3)",
+    "attribute": "disk usage",
+    "value": "69%",
+    "certainty": 1,
+    "source": "sensor log",
+    "timestamp": 124,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": true,
+    "alternatives": [
+      "38%",
+      "55%",
+      "81%"
+    ],
+    "origin_id": "fact-074"
+  },
+  {
+    "fact_id": "fact-075",
+    "subject": "server web-02 (unit 3)",
+    "attribute": "tls certificate expiry",
+    "value": "2026-05-01",
+    "certainty": 2,
+    "source": "project document",
+    "timestamp": 259,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-08-19",
+      "2027-01-10",
+      "2026-12-02"
+    ],
+    "origin_id": "fact-075"
+  },
+  {
+    "fact_id": "fact-076",
+    "subject": "user (unit 3)",
+    "attribute": "preferred language",
+    "value": "Spanish",
+    "certainty": 0,
+    "source": "user statement",
+    "timestamp": 241,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "English",
+      "Urdu",
+      "German"
+    ],
+    "origin_id": "fact-076"
+  },
+  {
+    "fact_id": "fact-077",
+    "subject": "user (unit 3)",
+    "attribute": "meeting preference",
+    "value": "afternoons",
+    "certainty": 1,
+    "source": "user statement",
+    "timestamp": 45,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "mornings",
+      "evenings",
+      "no Fridays"
+    ],
+    "origin_id": "fact-077"
+  },
+  {
+    "fact_id": "fact-078",
+    "subject": "user (unit 3)",
+    "attribute": "dietary restriction",
+    "value": "halal",
+    "certainty": 1,
+    "source": "sensor log",
+    "timestamp": 286,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "none",
+      "vegetarian",
+      "gluten-free"
+    ],
+    "origin_id": "fact-078"
+  },
+  {
+    "fact_id": "fact-079",
+    "subject": "user (unit 3)",
+    "attribute": "home city",
+    "value": "Faisalabad",
+    "certainty": 1,
+    "source": "system monitor",
+    "timestamp": 76,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "Lahore",
+      "Karachi",
+      "Islamabad"
+    ],
+    "origin_id": "fact-079"
+  },
+  {
+    "fact_id": "fact-080",
+    "subject": "team lead (unit 3)",
+    "attribute": "review day",
+    "value": "Friday",
+    "certainty": 1,
+    "source": "user statement",
+    "timestamp": 86,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "Monday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "origin_id": "fact-080"
+  },
+  {
+    "fact_id": "fact-081",
+    "subject": "team lead (unit 3)",
+    "attribute": "standup time",
+    "value": "10:00",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 113,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": true,
+    "alternatives": [
+      "09:00",
+      "09:30",
+      "10:30"
+    ],
+    "origin_id": "fact-081"
+  },
+  {
+    "fact_id": "fact-082",
+    "subject": "supplier Helix (unit 3)",
+    "attribute": "contract renewal",
+    "value": "2026-10-01",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 137,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-04-15",
+      "2027-02-28",
+      "2026-08-08"
+    ],
+    "origin_id": "fact-082"
+  },
+  {
+    "fact_id": "fact-083",
+    "subject": "supplier Helix (unit 3)",
+    "attribute": "payment terms",
+    "value": "net 60",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 154,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "net 30",
+      "net 45",
+      "on delivery"
+    ],
+    "origin_id": "fact-083"
+  },
+  {
+    "fact_id": "fact-084",
+    "subject": "lab printer (unit 3)",
+    "attribute": "toner level",
+    "value": "12%",
+    "certainty": 0,
+    "source": "sensor log",
+    "timestamp": 264,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "35%",
+      "58%",
+      "77%"
+    ],
+    "origin_id": "fact-084"
+  },
+  {
+    "fact_id": "fact-085",
+    "subject": "lab printer (unit 3)",
+    "attribute": "location",
+    "value": "room 207",
+    "certainty": 2,
+    "source": "team message",
+    "timestamp": 266,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "room 204",
+      "room 118",
+      "room 312"
+    ],
+    "origin_id": "fact-085"
+  },
+  {
+    "fact_id": "fact-086",
+    "subject": "field sensor S7 (unit 3)",
+    "attribute": "battery level",
+    "value": "23%",
+    "certainty": 0,
+    "source": "user statement",
+    "timestamp": 152,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "41%",
+      "66%",
+      "88%"
+    ],
+    "origin_id": "fact-086"
+  },
+  {
+    "fact_id": "fact-087",
+    "subject": "field sensor S7 (unit 3)",
+    "attribute": "last calibration",
+    "value": "2026-04-21",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 123,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "2026-01-05",
+      "2026-02-17",
+      "2026-03-29"
+    ],
+    "origin_id": "fact-087"
+  },
+  {
+    "fact_id": "fact-088",
+    "subject": "course CS-501 (unit 3)",
+    "attribute": "exam date",
+    "value": "2026-05-25",
+    "certainty": 0,
+    "source": "sensor log",
+    "timestamp": 76,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": true,
+    "alternatives": [
+      "2026-05-11",
+      "2026-06-03",
+      "2026-04-27"
+    ],
+    "origin_id": "fact-088"
+  },
+  {
+    "fact_id": "fact-089",
+    "subject": "course CS-501 (unit 3)",
+    "attribute": "lecturer",
+    "value": "Dr. Hamid",
+    "certainty": 0,
+    "source": "project document",
+    "timestamp": 108,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "Dr. Kanwal",
+      "Dr. Reyes",
+      "Dr. Novak"
+    ],
+    "origin_id": "fact-089"
+  },
+  {
+    "fact_id": "fact-090",
+    "subject": "office (unit 3)",
+    "attribute": "fire drill date",
+    "value": "2026-02-20",
+    "certainty": 1,
+    "source": "user statement",
+    "timestamp": 97,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-03-13",
+      "2026-05-08",
+      "2026-09-18"
+    ],
+    "origin_id": "fact-090"
+  },
+  {
+    "fact_id": "fact-091",
+    "subject": "project Atlas (unit 4)",
+    "attribute": "deadline",
+    "value": "2026-02-11",
+    "certainty": 1,
+    "source": "system monitor",
+    "timestamp": 129,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-03-14",
+      "2026-04-02",
+      "2026-05-21"
+    ],
+    "origin_id": "fact-091"
+  },
+  {
+    "fact_id": "fact-092",
+    "subject": "project Atlas (unit 4)",
+    "attribute": "lead engineer",
+    "value": "Jonas Weber",
+    "certainty": 2,
+    "source": "team message",
+    "timestamp": 85,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "Sara Iqbal",
+      "Tom Meyer",
+      "Priya Nair"
+    ],
+    "origin_id": "fact-092"
+  },
+  {
+    "fact_id": "fact-093",
+    "subject": "project Atlas (unit 4)",
+    "attribute": "status",
+    "value": "ahead of schedule",
+    "certainty": 2,
+    "source": "project document",
+    "timestamp": 60,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "on track",
+      "at risk",
+      "blocked"
+    ],
+    "origin_id": "fact-093"
+  },
+  {
+    "fact_id": "fact-094",
+    "subject": "project Atlas (unit 4)",
+    "attribute": "budget remaining",
+    "value": "42,000 USD",
+    "certainty": 0,
+    "source": "project document",
+    "timestamp": 57,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "18,500 USD",
+      "67,250 USD",
+      "9,800 USD"
+    ],
+    "origin_id": "fact-094"
+  },
+  {
+    "fact_id": "fact-095",
+    "subject": "project Beacon (unit 4)",
+    "attribute": "deadline",
+    "value": "2026-03-08",
+    "certainty": 0,
+    "source": "sensor log",
+    "timestamp": 157,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": true,
+    "alternatives": [
+      "2026-01-19",
+      "2026-07-15",
+      "2026-09-01"
+    ],
+    "origin_id": "fact-095"
+  },
+  {
+    "fact_id": "fact-096",
+    "subject": "project Beacon (unit 4)",
+    "attribute": "status",
+    "value": "at risk",
+    "certainty": 2,
+    "source": "sensor log",
+    "timestamp": 108,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "on track",
+      "blocked",
+      "in review"
+    ],
+    "origin_id": "fact-096"
+  },
+  {
+    "fact_id": "fact-097",
+    "subject": "project Beacon (unit 4)",
+    "attribute": "repository host",
+    "value": "Codeberg",
+    "certainty": 2,
+    "source": "team message",
+    "timestamp": 181,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "GitHub",
+      "GitLab",
+      "Bitbucket"
+    ],
+    "origin_id": "fact-097"
+  },
+  {
+    "fact_id": "fact-098",
+    "subject": "clinic ward 4 (unit 4)",
+    "attribute": "bed occupancy",
+    "value": "31 of 40",
+    "certainty": 1,
+    "source": "user statement",
+    "timestamp": 10,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "38 of 40",
+      "22 of 40",
+      "40 of 40"
+    ],
+    "origin_id": "fact-098"
+  },
+  {
+    "fact_id": "fact-099",
+    "subject": "clinic ward 4 (unit 4)",
+    "attribute": "night nurse",
+    "value": "Fatima Noor",
+    "certainty": 1,
+    "source": "system monitor",
+    "timestamp": 164,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "Ayesha Khan",
+      "Maria Garcia",
+      "Chen Wei"
+    ],
+    "origin_id": "fact-099"
+  },
+  {
+    "fact_id": "fact-100",
+    "subject": "clinic ward 4 (unit 4)",
+    "attribute": "isolation rooms free",
+    "value": "4",
+    "certainty": 2,
+    "source": "project document",
+    "timestamp": 4,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "0",
+      "1",
+      "2"
+    ],
+    "origin_id": "fact-100"
+  },
+  {
+    "fact_id": "fact-101",
+    "subject": "server db-01 (unit 4)",
+    "attribute": "disk usage",
+    "value": "92%",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 177,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "61%",
+      "74%",
+      "83%"
+    ],
+    "origin_id": "fact-101"
+  },
+  {
+    "fact_id": "fact-102",
+    "subject": "server db-01 (unit 4)",
+    "attribute": "backup status",
+    "value": "partial",
+    "certainty": 0,
+    "source": "user statement",
+    "timestamp": 169,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": true,
+    "alternatives": [
+      "completed",
+      "failed",
+      "running"
+    ],
+    "origin_id": "fact-102"
+  },
+  {
+    "fact_id": "fact-103",
+    "subject": "server db-01 (unit 4)",
+    "attribute": "maintenance window",
+    "value": "Sunday 02:00",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 242,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "Saturday 23:00",
+      "Wednesday 01:00",
+      "Friday 03:00"
+    ],
+    "origin_id": "fact-103"
+  },
+  {
+    "fact_id": "fact-104",
+    "subject": "server web-02 (unit 4)",
+    "attribute": "disk usage",
+    "value": "55%",
+    "certainty": 0,
+    "source": "sensor log",
+    "timestamp": 138,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "38%",
+      "69%",
+      "81%"
+    ],
+    "origin_id": "fact-104"
+  },
+  {
+    "fact_id": "fact-105",
+    "subject": "server web-02 (unit 4)",
+    "attribute": "tls certificate expiry",
+    "value": "2026-05-01",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 174,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-08-19",
+      "2027-01-10",
+      "2026-12-02"
+    ],
+    "origin_id": "fact-105"
+  },
+  {
+    "fact_id": "fact-106",
+    "subject": "user (unit 4)",
+    "attribute": "preferred language",
+    "value": "German",
+    "certainty": 1,
+    "source": "system monitor",
+    "timestamp": 246,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "English",
+      "Urdu",
+      "Spanish"
+    ],
+    "origin_id": "fact-106"
+  },
+  {
+    "fact_id": "fact-107",
+    "subject": "user (unit 4)",
+    "attribute": "meeting preference",
+    "value": "evenings",
+    "certainty": 0,
+    "source": "team message",
+    "timestamp": 291,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "mornings",
+      "afternoons",
+      "no Fridays"
+    ],
+    "origin_id": "fact-107"
+  },
+  {
+    "fact_id": "fact-108",
+    "subject": "user (unit 4)",
+    "attribute": "dietary restriction",
+    "value": "halal",
+    "certainty": 2,
+    "source": "user statement",
+    "timestamp": 234,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "none",
+      "vegetarian",
+      "gluten-free"
+    ],
+    "origin_id": "fact-108"
+  },
+  {
+    "fact_id": "fact-109",
+    "subject": "user (unit 4)",
+    "attribute": "home city",
+    "value": "Lahore",
+    "certainty": 0,
+    "source": "sensor log",
+    "timestamp": 297,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": true,
+    "alternatives": [
+      "Faisalabad",
+      "Karachi",
+      "Islamabad"
+    ],
+    "origin_id": "fact-109"
+  },
+  {
+    "fact_id": "fact-110",
+    "subject": "team lead (unit 4)",
+    "attribute": "review day",
+    "value": "Tuesday",
+    "certainty": 2,
+    "source": "project document",
+    "timestamp": 162,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "Monday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "origin_id": "fact-110"
+  },
+  {
+    "fact_id": "fact-111",
+    "subject": "team lead (unit 4)",
+    "attribute": "standup time",
+    "value": "10:30",
+    "certainty": 2,
+    "source": "project document",
+    "timestamp": 157,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "09:00",
+      "09:30",
+      "10:00"
+    ],
+    "origin_id": "fact-111"
+  },
+  {
+    "fact_id": "fact-112",
+    "subject": "supplier Helix (unit 4)",
+    "attribute": "contract renewal",
+    "value": "2026-08-08",
+    "certainty": 1,
+    "source": "user statement",
+    "timestamp": 110,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-04-15",
+      "2026-10-01",
+      "2027-02-28"
+    ],
+    "origin_id": "fact-112"
+  },
+  {
+    "fact_id": "fact-113",
+    "subject": "supplier Helix (unit 4)",
+    "attribute": "payment terms",
+    "value": "net 30",
+    "certainty": 2,
+    "source": "user statement",
+    "timestamp": 63,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "net 45",
+      "net 60",
+      "on delivery"
+    ],
+    "origin_id": "fact-113"
+  },
+  {
+    "fact_id": "fact-114",
+    "subject": "lab printer (unit 4)",
+    "attribute": "toner level",
+    "value": "90%",
+    "certainty": 1,
+    "source": "sensor log",
+    "timestamp": 209,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "12%",
+      "35%",
+      "58%"
+    ],
+    "origin_id": "fact-114"
+  },
+  {
+    "fact_id": "fact-115",
+    "subject": "lab printer (unit 4)",
+    "attribute": "location",
+    "value": "room 312",
+    "certainty": 0,
+    "source": "team message",
+    "timestamp": 270,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "room 204",
+      "room 118",
+      "library annex"
+    ],
+    "origin_id": "fact-115"
+  },
+  {
+    "fact_id": "fact-116",
+    "subject": "field sensor S7 (unit 4)",
+    "attribute": "battery level",
+    "value": "9%",
+    "certainty": 1,
+    "source": "sensor log",
+    "timestamp": 48,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": true,
+    "alternatives": [
+      "23%",
+      "41%",
+      "66%"
+    ],
+    "origin_id": "fact-116"
+  },
+  {
+    "fact_id": "fact-117",
+    "subject": "field sensor S7 (unit 4)",
+    "attribute": "last calibration",
+    "value": "2025-12-12",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 194,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "2026-01-05",
+      "2026-02-17",
+      "2026-03-29"
+    ],
+    "origin_id": "fact-117"
+  },
+  {
+    "fact_id": "fact-118",
+    "subject": "course CS-501 (unit 4)",
+    "attribute": "exam date",
+    "value": "2026-06-15",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 60,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-05-11",
+      "2026-05-25",
+      "2026-06-03"
+    ],
+    "origin_id": "fact-118"
+  },
+  {
+    "fact_id": "fact-119",
+    "subject": "course CS-501 (unit 4)",
+    "attribute": "lecturer",
+    "value": "Dr. Reyes",
+    "certainty": 2,
+    "source": "project document",
+    "timestamp": 207,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "Dr. Hamid",
+      "Dr. Kanwal",
+      "Dr. Novak"
+    ],
+    "origin_id": "fact-119"
+  },
+  {
+    "fact_id": "fact-120",
+    "subject": "office (unit 4)",
+    "attribute": "fire drill date",
+    "value": "2026-11-06",
+    "certainty": 0,
+    "source": "team message",
+    "timestamp": 299,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-02-20",
+      "2026-03-13",
+      "2026-05-08"
+    ],
+    "origin_id": "fact-120"
+  },
+  {
+    "fact_id": "fact-121",
+    "subject": "project Atlas (unit 5)",
+    "attribute": "deadline",
+    "value": "2026-05-21",
+    "certainty": 0,
+    "source": "project document",
+    "timestamp": 292,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-03-14",
+      "2026-04-02",
+      "2026-06-30"
+    ],
+    "origin_id": "fact-121"
+  },
+  {
+    "fact_id": "fact-122",
+    "subject": "project Atlas (unit 5)",
+    "attribute": "lead engineer",
+    "value": "Lena Fischer",
+    "certainty": 2,
+    "source": "user statement",
+    "timestamp": 62,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "Sara Iqbal",
+      "Tom Meyer",
+      "Priya Nair"
+    ],
+    "origin_id": "fact-122"
+  },
+  {
+    "fact_id": "fact-123",
+    "subject": "project Atlas (unit 5)",
+    "attribute": "status",
+    "value": "ahead of schedule",
+    "certainty": 2,
+    "source": "sensor log",
+    "timestamp": 280,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": true,
+    "alternatives": [
+      "on track",
+      "at risk",
+      "blocked"
+    ],
+    "origin_id": "fact-123"
+  },
+  {
+    "fact_id": "fact-124",
+    "subject": "project Atlas (unit 5)",
+    "attribute": "budget remaining",
+    "value": "18,500 USD",
+    "certainty": 0,
+    "source": "team message",
+    "timestamp": 239,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "42,000 USD",
+      "67,250 USD",
+      "9,800 USD"
+    ],
+    "origin_id": "fact-124"
+  },
+  {
+    "fact_id": "fact-125",
+    "subject": "project Beacon (unit 5)",
+    "attribute": "deadline",
+    "value": "2026-07-15",
+    "certainty": 2,
+    "source": "project document",
+    "timestamp": 294,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "2026-01-19",
+      "2026-03-08",
+      "2026-09-01"
+    ],
+    "origin_id": "fact-125"
+  },
+  {
+    "fact_id": "fact-126",
+    "subject": "project Beacon (unit 5)",
+    "attribute": "status",
+    "value": "blocked",
+    "certainty": 2,
+    "source": "system monitor",
+    "timestamp": 147,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "on track",
+      "at risk",
+      "in review"
+    ],
+    "origin_id": "fact-126"
+  },
+  {
+    "fact_id": "fact-127",
+    "subject": "project Beacon (unit 5)",
+    "attribute": "repository host",
+    "value": "GitHub",
+    "certainty": 1,
+    "source": "sensor log",
+    "timestamp": 192,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "GitLab",
+      "Bitbucket",
+      "self-hosted"
+    ],
+    "origin_id": "fact-127"
+  },
+  {
+    "fact_id": "fact-128",
+    "subject": "clinic ward 4 (unit 5)",
+    "attribute": "bed occupancy",
+    "value": "38 of 40",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 123,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "31 of 40",
+      "22 of 40",
+      "40 of 40"
+    ],
+    "origin_id": "fact-128"
+  },
+  {
+    "fact_id": "fact-129",
+    "subject": "clinic ward 4 (unit 5)",
+    "attribute": "night nurse",
+    "value": "Fatima Noor",
+    "certainty": 2,
+    "source": "project document",
+    "timestamp": 118,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "Ayesha Khan",
+      "Maria Garcia",
+      "Chen Wei"
+    ],
+    "origin_id": "fact-129"
+  },
+  {
+    "fact_id": "fact-130",
+    "subject": "clinic ward 4 (unit 5)",
+    "attribute": "isolation rooms free",
+    "value": "0",
+    "certainty": 0,
+    "source": "user statement",
+    "timestamp": 195,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": true,
+    "alternatives": [
+      "1",
+      "2",
+      "3"
+    ],
+    "origin_id": "fact-130"
+  },
+  {
+    "fact_id": "fact-131",
+    "subject": "server db-01 (unit 5)",
+    "attribute": "disk usage",
+    "value": "74%",
+    "certainty": 1,
+    "source": "user statement",
+    "timestamp": 190,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "61%",
+      "83%",
+      "47%"
+    ],
+    "origin_id": "fact-131"
+  },
+  {
+    "fact_id": "fact-132",
+    "subject": "server db-01 (unit 5)",
+    "attribute": "backup status",
+    "value": "skipped",
+    "certainty": 0,
+    "source": "system monitor",
+    "timestamp": 60,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "completed",
+      "failed",
+      "running"
+    ],
+    "origin_id": "fact-132"
+  },
+  {
+    "fact_id": "fact-133",
+    "subject": "server db-01 (unit 5)",
+    "attribute": "maintenance window",
+    "value": "Monday 00:30",
+    "certainty": 1,
+    "source": "system monitor",
+    "timestamp": 34,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "Sunday 02:00",
+      "Saturday 23:00",
+      "Wednesday 01:00"
+    ],
+    "origin_id": "fact-133"
+  },
+  {
+    "fact_id": "fact-134",
+    "subject": "server web-02 (unit 5)",
+    "attribute": "disk usage",
+    "value": "69%",
+    "certainty": 1,
+    "source": "user statement",
+    "timestamp": 118,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "38%",
+      "55%",
+      "81%"
+    ],
+    "origin_id": "fact-134"
+  },
+  {
+    "fact_id": "fact-135",
+    "subject": "server web-02 (unit 5)",
+    "attribute": "tls certificate expiry",
+    "value": "2026-08-19",
+    "certainty": 2,
+    "source": "project document",
+    "timestamp": 121,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-05-01",
+      "2027-01-10",
+      "2026-12-02"
+    ],
+    "origin_id": "fact-135"
+  },
+  {
+    "fact_id": "fact-136",
+    "subject": "user (unit 5)",
+    "attribute": "preferred language",
+    "value": "Urdu",
+    "certainty": 1,
+    "source": "user statement",
+    "timestamp": 134,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "English",
+      "German",
+      "Spanish"
+    ],
+    "origin_id": "fact-136"
+  },
+  {
+    "fact_id": "fact-137",
+    "subject": "user (unit 5)",
+    "attribute": "meeting preference",
+    "value": "mornings",
+    "certainty": 2,
+    "source": "project document",
+    "timestamp": 278,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": true,
+    "alternatives": [
+      "afternoons",
+      "evenings",
+      "no Fridays"
+    ],
+    "origin_id": "fact-137"
+  },
+  {
+    "fact_id": "fact-138",
+    "subject": "user (unit 5)",
+    "attribute": "dietary restriction",
+    "value": "vegan",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 204,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "none",
+      "vegetarian",
+      "halal"
+    ],
+    "origin_id": "fact-138"
+  },
+  {
+    "fact_id": "fact-139",
+    "subject": "user (unit 5)",
+    "attribute": "home city",
+    "value": "Karachi",
+    "certainty": 0,
+    "source": "user statement",
+    "timestamp": 60,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "Faisalabad",
+      "Lahore",
+      "Islamabad"
+    ],
+    "origin_id": "fact-139"
+  },
+  {
+    "fact_id": "fact-140",
+    "subject": "team lead (unit 5)",
+    "attribute": "review day",
+    "value": "Thursday",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 160,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "Monday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "origin_id": "fact-140"
+  },
+  {
+    "fact_id": "fact-141",
+    "subject": "team lead (unit 5)",
+    "attribute": "standup time",
+    "value": "10:30",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 211,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "09:00",
+      "09:30",
+      "10:00"
+    ],
+    "origin_id": "fact-141"
+  },
+  {
+    "fact_id": "fact-142",
+    "subject": "supplier Helix (unit 5)",
+    "attribute": "contract renewal",
+    "value": "2026-04-15",
+    "certainty": 1,
+    "source": "user statement",
+    "timestamp": 79,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-10-01",
+      "2027-02-28",
+      "2026-08-08"
+    ],
+    "origin_id": "fact-142"
+  },
+  {
+    "fact_id": "fact-143",
+    "subject": "supplier Helix (unit 5)",
+    "attribute": "payment terms",
+    "value": "net 45",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 149,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "net 30",
+      "net 60",
+      "on delivery"
+    ],
+    "origin_id": "fact-143"
+  },
+  {
+    "fact_id": "fact-144",
+    "subject": "lab printer (unit 5)",
+    "attribute": "toner level",
+    "value": "58%",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 247,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": true,
+    "alternatives": [
+      "12%",
+      "35%",
+      "77%"
+    ],
+    "origin_id": "fact-144"
+  },
+  {
+    "fact_id": "fact-145",
+    "subject": "lab printer (unit 5)",
+    "attribute": "location",
+    "value": "library annex",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 2,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "room 204",
+      "room 118",
+      "room 312"
+    ],
+    "origin_id": "fact-145"
+  },
+  {
+    "fact_id": "fact-146",
+    "subject": "field sensor S7 (unit 5)",
+    "attribute": "battery level",
+    "value": "23%",
+    "certainty": 1,
+    "source": "sensor log",
+    "timestamp": 162,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "41%",
+      "66%",
+      "88%"
+    ],
+    "origin_id": "fact-146"
+  },
+  {
+    "fact_id": "fact-147",
+    "subject": "field sensor S7 (unit 5)",
+    "attribute": "last calibration",
+    "value": "2026-04-21",
+    "certainty": 2,
+    "source": "user statement",
+    "timestamp": 292,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "2026-01-05",
+      "2026-02-17",
+      "2026-03-29"
+    ],
+    "origin_id": "fact-147"
+  },
+  {
+    "fact_id": "fact-148",
+    "subject": "course CS-501 (unit 5)",
+    "attribute": "exam date",
+    "value": "2026-06-03",
+    "certainty": 1,
+    "source": "sensor log",
+    "timestamp": 255,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "2026-05-11",
+      "2026-05-25",
+      "2026-04-27"
+    ],
+    "origin_id": "fact-148"
+  },
+  {
+    "fact_id": "fact-149",
+    "subject": "course CS-501 (unit 5)",
+    "attribute": "lecturer",
+    "value": "Dr. Hamid",
+    "certainty": 1,
+    "source": "user statement",
+    "timestamp": 218,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "Dr. Kanwal",
+      "Dr. Reyes",
+      "Dr. Novak"
+    ],
+    "origin_id": "fact-149"
+  },
+  {
+    "fact_id": "fact-150",
+    "subject": "office (unit 5)",
+    "attribute": "fire drill date",
+    "value": "2026-05-08",
+    "certainty": 1,
+    "source": "sensor log",
+    "timestamp": 39,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-02-20",
+      "2026-03-13",
+      "2026-09-18"
+    ],
+    "origin_id": "fact-150"
+  },
+  {
+    "fact_id": "fact-151",
+    "subject": "project Atlas (unit 6)",
+    "attribute": "deadline",
+    "value": "2026-06-30",
+    "certainty": 2,
+    "source": "sensor log",
+    "timestamp": 9,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": true,
+    "alternatives": [
+      "2026-03-14",
+      "2026-04-02",
+      "2026-05-21"
+    ],
+    "origin_id": "fact-151"
+  },
+  {
+    "fact_id": "fact-152",
+    "subject": "project Atlas (unit 6)",
+    "attribute": "lead engineer",
+    "value": "Jonas Weber",
+    "certainty": 0,
+    "source": "user statement",
+    "timestamp": 62,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "Sara Iqbal",
+      "Tom Meyer",
+      "Priya Nair"
+    ],
+    "origin_id": "fact-152"
+  },
+  {
+    "fact_id": "fact-153",
+    "subject": "project Atlas (unit 6)",
+    "attribute": "status",
+    "value": "on track",
+    "certainty": 2,
+    "source": "project document",
+    "timestamp": 203,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "at risk",
+      "blocked",
+      "in review"
+    ],
+    "origin_id": "fact-153"
+  },
+  {
+    "fact_id": "fact-154",
+    "subject": "project Atlas (unit 6)",
+    "attribute": "budget remaining",
+    "value": "42,000 USD",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 248,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "18,500 USD",
+      "67,250 USD",
+      "9,800 USD"
+    ],
+    "origin_id": "fact-154"
+  },
+  {
+    "fact_id": "fact-155",
+    "subject": "project Beacon (unit 6)",
+    "attribute": "deadline",
+    "value": "2026-07-15",
+    "certainty": 0,
+    "source": "system monitor",
+    "timestamp": 200,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "2026-01-19",
+      "2026-03-08",
+      "2026-09-01"
+    ],
+    "origin_id": "fact-155"
+  },
+  {
+    "fact_id": "fact-156",
+    "subject": "project Beacon (unit 6)",
+    "attribute": "status",
+    "value": "on track",
+    "certainty": 0,
+    "source": "project document",
+    "timestamp": 56,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "at risk",
+      "blocked",
+      "in review"
+    ],
+    "origin_id": "fact-156"
+  },
+  {
+    "fact_id": "fact-157",
+    "subject": "project Beacon (unit 6)",
+    "attribute": "repository host",
+    "value": "Codeberg",
+    "certainty": 2,
+    "source": "team message",
+    "timestamp": 264,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "GitHub",
+      "GitLab",
+      "Bitbucket"
+    ],
+    "origin_id": "fact-157"
+  },
+  {
+    "fact_id": "fact-158",
+    "subject": "clinic ward 4 (unit 6)",
+    "attribute": "bed occupancy",
+    "value": "40 of 40",
+    "certainty": 0,
+    "source": "user statement",
+    "timestamp": 7,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": true,
+    "alternatives": [
+      "31 of 40",
+      "38 of 40",
+      "22 of 40"
+    ],
+    "origin_id": "fact-158"
+  },
+  {
+    "fact_id": "fact-159",
+    "subject": "clinic ward 4 (unit 6)",
+    "attribute": "night nurse",
+    "value": "Ayesha Khan",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 251,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "Maria Garcia",
+      "Chen Wei",
+      "Fatima Noor"
+    ],
+    "origin_id": "fact-159"
+  },
+  {
+    "fact_id": "fact-160",
+    "subject": "clinic ward 4 (unit 6)",
+    "attribute": "isolation rooms free",
+    "value": "4",
+    "certainty": 1,
+    "source": "system monitor",
+    "timestamp": 78,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "0",
+      "1",
+      "2"
+    ],
+    "origin_id": "fact-160"
+  },
+  {
+    "fact_id": "fact-161",
+    "subject": "server db-01 (unit 6)",
+    "attribute": "disk usage",
+    "value": "47%",
+    "certainty": 0,
+    "source": "project document",
+    "timestamp": 227,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "61%",
+      "74%",
+      "83%"
+    ],
+    "origin_id": "fact-161"
+  },
+  {
+    "fact_id": "fact-162",
+    "subject": "server db-01 (unit 6)",
+    "attribute": "backup status",
+    "value": "completed",
+    "certainty": 0,
+    "source": "project document",
+    "timestamp": 90,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "failed",
+      "running",
+      "skipped"
+    ],
+    "origin_id": "fact-162"
+  },
+  {
+    "fact_id": "fact-163",
+    "subject": "server db-01 (unit 6)",
+    "attribute": "maintenance window",
+    "value": "Sunday 02:00",
+    "certainty": 2,
+    "source": "project document",
+    "timestamp": 286,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "Saturday 23:00",
+      "Wednesday 01:00",
+      "Friday 03:00"
+    ],
+    "origin_id": "fact-163"
+  },
+  {
+    "fact_id": "fact-164",
+    "subject": "server web-02 (unit 6)",
+    "attribute": "disk usage",
+    "value": "55%",
+    "certainty": 1,
+    "source": "system monitor",
+    "timestamp": 136,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "38%",
+      "69%",
+      "81%"
+    ],
+    "origin_id": "fact-164"
+  },
+  {
+    "fact_id": "fact-165",
+    "subject": "server web-02 (unit 6)",
+    "attribute": "tls certificate expiry",
+    "value": "2026-12-02",
+    "certainty": 0,
+    "source": "user statement",
+    "timestamp": 228,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": true,
+    "alternatives": [
+      "2026-05-01",
+      "2026-08-19",
+      "2027-01-10"
+    ],
+    "origin_id": "fact-165"
+  },
+  {
+    "fact_id": "fact-166",
+    "subject": "user (unit 6)",
+    "attribute": "preferred language",
+    "value": "Urdu",
+    "certainty": 2,
+    "source": "sensor log",
+    "timestamp": 267,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "English",
+      "German",
+      "Spanish"
+    ],
+    "origin_id": "fact-166"
+  },
+  {
+    "fact_id": "fact-167",
+    "subject": "user (unit 6)",
+    "attribute": "meeting preference",
+    "value": "weekends only",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 128,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "mornings",
+      "afternoons",
+      "evenings"
+    ],
+    "origin_id": "fact-167"
+  },
+  {
+    "fact_id": "fact-168",
+    "subject": "user (unit 6)",
+    "attribute": "dietary restriction",
+    "value": "gluten-free",
+    "certainty": 2,
+    "source": "team message",
+    "timestamp": 50,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "none",
+      "vegetarian",
+      "halal"
+    ],
+    "origin_id": "fact-168"
+  },
+  {
+    "fact_id": "fact-169",
+    "subject": "user (unit 6)",
+    "attribute": "home city",
+    "value": "Faisalabad",
+    "certainty": 0,
+    "source": "team message",
+    "timestamp": 273,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "Lahore",
+      "Karachi",
+      "Islamabad"
+    ],
+    "origin_id": "fact-169"
+  },
+  {
+    "fact_id": "fact-170",
+    "subject": "team lead (unit 6)",
+    "attribute": "review day",
+    "value": "Friday",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 155,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "Monday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "origin_id": "fact-170"
+  },
+  {
+    "fact_id": "fact-171",
+    "subject": "team lead (unit 6)",
+    "attribute": "standup time",
+    "value": "09:00",
+    "certainty": 0,
+    "source": "system monitor",
+    "timestamp": 275,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "09:30",
+      "10:00",
+      "10:30"
+    ],
+    "origin_id": "fact-171"
+  },
+  {
+    "fact_id": "fact-172",
+    "subject": "supplier Helix (unit 6)",
+    "attribute": "contract renewal",
+    "value": "2026-10-01",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 95,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": true,
+    "alternatives": [
+      "2026-04-15",
+      "2027-02-28",
+      "2026-08-08"
+    ],
+    "origin_id": "fact-172"
+  },
+  {
+    "fact_id": "fact-173",
+    "subject": "supplier Helix (unit 6)",
+    "attribute": "payment terms",
+    "value": "net 30",
+    "certainty": 2,
+    "source": "project document",
+    "timestamp": 217,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "net 45",
+      "net 60",
+      "on delivery"
+    ],
+    "origin_id": "fact-173"
+  },
+  {
+    "fact_id": "fact-174",
+    "subject": "lab printer (unit 6)",
+    "attribute": "toner level",
+    "value": "58%",
+    "certainty": 2,
+    "source": "system monitor",
+    "timestamp": 284,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "12%",
+      "35%",
+      "77%"
+    ],
+    "origin_id": "fact-174"
+  },
+  {
+    "fact_id": "fact-175",
+    "subject": "lab printer (unit 6)",
+    "attribute": "location",
+    "value": "room 118",
+    "certainty": 0,
+    "source": "user statement",
+    "timestamp": 278,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "room 204",
+      "room 312",
+      "library annex"
+    ],
+    "origin_id": "fact-175"
+  },
+  {
+    "fact_id": "fact-176",
+    "subject": "field sensor S7 (unit 6)",
+    "attribute": "battery level",
+    "value": "66%",
+    "certainty": 0,
+    "source": "user statement",
+    "timestamp": 246,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "23%",
+      "41%",
+      "88%"
+    ],
+    "origin_id": "fact-176"
+  },
+  {
+    "fact_id": "fact-177",
+    "subject": "field sensor S7 (unit 6)",
+    "attribute": "last calibration",
+    "value": "2026-04-21",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 86,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-01-05",
+      "2026-02-17",
+      "2026-03-29"
+    ],
+    "origin_id": "fact-177"
+  },
+  {
+    "fact_id": "fact-178",
+    "subject": "course CS-501 (unit 6)",
+    "attribute": "exam date",
+    "value": "2026-05-11",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 156,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "2026-05-25",
+      "2026-06-03",
+      "2026-04-27"
+    ],
+    "origin_id": "fact-178"
+  },
+  {
+    "fact_id": "fact-179",
+    "subject": "course CS-501 (unit 6)",
+    "attribute": "lecturer",
+    "value": "Dr. Hamid",
+    "certainty": 0,
+    "source": "project document",
+    "timestamp": 0,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": true,
+    "alternatives": [
+      "Dr. Kanwal",
+      "Dr. Reyes",
+      "Dr. Novak"
+    ],
+    "origin_id": "fact-179"
+  },
+  {
+    "fact_id": "fact-180",
+    "subject": "office (unit 6)",
+    "attribute": "fire drill date",
+    "value": "2026-02-20",
+    "certainty": 1,
+    "source": "sensor log",
+    "timestamp": 290,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "2026-03-13",
+      "2026-05-08",
+      "2026-09-18"
+    ],
+    "origin_id": "fact-180"
+  },
+  {
+    "fact_id": "fact-181",
+    "subject": "project Atlas (unit 7)",
+    "attribute": "deadline",
+    "value": "2026-04-02",
+    "certainty": 0,
+    "source": "user statement",
+    "timestamp": 67,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-03-14",
+      "2026-05-21",
+      "2026-06-30"
+    ],
+    "origin_id": "fact-181"
+  },
+  {
+    "fact_id": "fact-182",
+    "subject": "project Atlas (unit 7)",
+    "attribute": "lead engineer",
+    "value": "Tom Meyer",
+    "certainty": 0,
+    "source": "project document",
+    "timestamp": 162,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "Sara Iqbal",
+      "Priya Nair",
+      "Jonas Weber"
+    ],
+    "origin_id": "fact-182"
+  },
+  {
+    "fact_id": "fact-183",
+    "subject": "project Atlas (unit 7)",
+    "attribute": "status",
+    "value": "in review",
+    "certainty": 1,
+    "source": "sensor log",
+    "timestamp": 134,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "on track",
+      "at risk",
+      "blocked"
+    ],
+    "origin_id": "fact-183"
+  },
+  {
+    "fact_id": "fact-184",
+    "subject": "project Atlas (unit 7)",
+    "attribute": "budget remaining",
+    "value": "67,250 USD",
+    "certainty": 1,
+    "source": "system monitor",
+    "timestamp": 13,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "42,000 USD",
+      "18,500 USD",
+      "9,800 USD"
+    ],
+    "origin_id": "fact-184"
+  },
+  {
+    "fact_id": "fact-185",
+    "subject": "project Beacon (unit 7)",
+    "attribute": "deadline",
+    "value": "2026-11-23",
+    "certainty": 0,
+    "source": "sensor log",
+    "timestamp": 259,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "2026-01-19",
+      "2026-03-08",
+      "2026-07-15"
+    ],
+    "origin_id": "fact-185"
+  },
+  {
+    "fact_id": "fact-186",
+    "subject": "project Beacon (unit 7)",
+    "attribute": "status",
+    "value": "at risk",
+    "certainty": 0,
+    "source": "sensor log",
+    "timestamp": 217,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": true,
+    "alternatives": [
+      "on track",
+      "blocked",
+      "in review"
+    ],
+    "origin_id": "fact-186"
+  },
+  {
+    "fact_id": "fact-187",
+    "subject": "project Beacon (unit 7)",
+    "attribute": "repository host",
+    "value": "Bitbucket",
+    "certainty": 1,
+    "source": "user statement",
+    "timestamp": 269,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "GitHub",
+      "GitLab",
+      "self-hosted"
+    ],
+    "origin_id": "fact-187"
+  },
+  {
+    "fact_id": "fact-188",
+    "subject": "clinic ward 4 (unit 7)",
+    "attribute": "bed occupancy",
+    "value": "22 of 40",
+    "certainty": 2,
+    "source": "team message",
+    "timestamp": 229,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "31 of 40",
+      "38 of 40",
+      "40 of 40"
+    ],
+    "origin_id": "fact-188"
+  },
+  {
+    "fact_id": "fact-189",
+    "subject": "clinic ward 4 (unit 7)",
+    "attribute": "night nurse",
+    "value": "Fatima Noor",
+    "certainty": 2,
+    "source": "system monitor",
+    "timestamp": 115,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "Ayesha Khan",
+      "Maria Garcia",
+      "Chen Wei"
+    ],
+    "origin_id": "fact-189"
+  },
+  {
+    "fact_id": "fact-190",
+    "subject": "clinic ward 4 (unit 7)",
+    "attribute": "isolation rooms free",
+    "value": "2",
+    "certainty": 0,
+    "source": "user statement",
+    "timestamp": 170,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "0",
+      "1",
+      "3"
+    ],
+    "origin_id": "fact-190"
+  },
+  {
+    "fact_id": "fact-191",
+    "subject": "server db-01 (unit 7)",
+    "attribute": "disk usage",
+    "value": "74%",
+    "certainty": 0,
+    "source": "team message",
+    "timestamp": 97,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "61%",
+      "83%",
+      "47%"
+    ],
+    "origin_id": "fact-191"
+  },
+  {
+    "fact_id": "fact-192",
+    "subject": "server db-01 (unit 7)",
+    "attribute": "backup status",
+    "value": "partial",
+    "certainty": 0,
+    "source": "user statement",
+    "timestamp": 199,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "completed",
+      "failed",
+      "running"
+    ],
+    "origin_id": "fact-192"
+  },
+  {
+    "fact_id": "fact-193",
+    "subject": "server db-01 (unit 7)",
+    "attribute": "maintenance window",
+    "value": "Saturday 23:00",
+    "certainty": 2,
+    "source": "user statement",
+    "timestamp": 128,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": true,
+    "alternatives": [
+      "Sunday 02:00",
+      "Wednesday 01:00",
+      "Friday 03:00"
+    ],
+    "origin_id": "fact-193"
+  },
+  {
+    "fact_id": "fact-194",
+    "subject": "server web-02 (unit 7)",
+    "attribute": "disk usage",
+    "value": "38%",
+    "certainty": 0,
+    "source": "sensor log",
+    "timestamp": 143,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "55%",
+      "69%",
+      "81%"
+    ],
+    "origin_id": "fact-194"
+  },
+  {
+    "fact_id": "fact-195",
+    "subject": "server web-02 (unit 7)",
+    "attribute": "tls certificate expiry",
+    "value": "2026-03-27",
+    "certainty": 2,
+    "source": "user statement",
+    "timestamp": 115,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "2026-05-01",
+      "2026-08-19",
+      "2027-01-10"
+    ],
+    "origin_id": "fact-195"
+  },
+  {
+    "fact_id": "fact-196",
+    "subject": "user (unit 7)",
+    "attribute": "preferred language",
+    "value": "French",
+    "certainty": 1,
+    "source": "system monitor",
+    "timestamp": 270,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "English",
+      "Urdu",
+      "German"
+    ],
+    "origin_id": "fact-196"
+  },
+  {
+    "fact_id": "fact-197",
+    "subject": "user (unit 7)",
+    "attribute": "meeting preference",
+    "value": "afternoons",
+    "certainty": 1,
+    "source": "sensor log",
+    "timestamp": 111,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "mornings",
+      "evenings",
+      "no Fridays"
+    ],
+    "origin_id": "fact-197"
+  },
+  {
+    "fact_id": "fact-198",
+    "subject": "user (unit 7)",
+    "attribute": "dietary restriction",
+    "value": "halal",
+    "certainty": 0,
+    "source": "system monitor",
+    "timestamp": 230,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "none",
+      "vegetarian",
+      "gluten-free"
+    ],
+    "origin_id": "fact-198"
+  },
+  {
+    "fact_id": "fact-199",
+    "subject": "user (unit 7)",
+    "attribute": "home city",
+    "value": "Islamabad",
+    "certainty": 2,
+    "source": "system monitor",
+    "timestamp": 129,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "Faisalabad",
+      "Lahore",
+      "Karachi"
+    ],
+    "origin_id": "fact-199"
+  },
+  {
+    "fact_id": "fact-200",
+    "subject": "team lead (unit 7)",
+    "attribute": "review day",
+    "value": "Thursday",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 270,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": true,
+    "alternatives": [
+      "Monday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "origin_id": "fact-200"
+  }
+]

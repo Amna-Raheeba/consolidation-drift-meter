@@ -1,0 +1,218 @@
+[
+  {
+    "fact_id": "fact-001",
+    "subject": "project Atlas",
+    "attribute": "deadline",
+    "value": "2026-02-11",
+    "certainty": 0,
+    "source": "project document",
+    "timestamp": 42,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "2026-03-14",
+      "2026-04-02",
+      "2026-05-21"
+    ],
+    "origin_id": "fact-001"
+  },
+  {
+    "fact_id": "fact-002",
+    "subject": "project Atlas",
+    "attribute": "lead engineer",
+    "value": "Priya Nair",
+    "certainty": 0,
+    "source": "sensor log",
+    "timestamp": 82,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "Sara Iqbal",
+      "Tom Meyer",
+      "Jonas Weber"
+    ],
+    "origin_id": "fact-002"
+  },
+  {
+    "fact_id": "fact-003",
+    "subject": "project Atlas",
+    "attribute": "status",
+    "value": "blocked",
+    "certainty": 1,
+    "source": "sensor log",
+    "timestamp": 186,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "on track",
+      "at risk",
+      "in review"
+    ],
+    "origin_id": "fact-003"
+  },
+  {
+    "fact_id": "fact-004",
+    "subject": "project Atlas",
+    "attribute": "budget remaining",
+    "value": "9,800 USD",
+    "certainty": 1,
+    "source": "system monitor",
+    "timestamp": 59,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": true,
+    "alternatives": [
+      "42,000 USD",
+      "18,500 USD",
+      "67,250 USD"
+    ],
+    "origin_id": "fact-004"
+  },
+  {
+    "fact_id": "fact-005",
+    "subject": "project Beacon",
+    "attribute": "deadline",
+    "value": "2026-03-08",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 40,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "2026-01-19",
+      "2026-07-15",
+      "2026-09-01"
+    ],
+    "origin_id": "fact-005"
+  },
+  {
+    "fact_id": "fact-006",
+    "subject": "project Beacon",
+    "attribute": "status",
+    "value": "blocked",
+    "certainty": 0,
+    "source": "sensor log",
+    "timestamp": 107,
+    "day_precision": true,
+    "importance": 1,
+    "pinned": false,
+    "alternatives": [
+      "on track",
+      "at risk",
+      "in review"
+    ],
+    "origin_id": "fact-006"
+  },
+  {
+    "fact_id": "fact-007",
+    "subject": "project Beacon",
+    "attribute": "repository host",
+    "value": "Bitbucket",
+    "certainty": 0,
+    "source": "system monitor",
+    "timestamp": 220,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "GitHub",
+      "GitLab",
+      "self-hosted"
+    ],
+    "origin_id": "fact-007"
+  },
+  {
+    "fact_id": "fact-008",
+    "subject": "clinic ward 4",
+    "attribute": "bed occupancy",
+    "value": "31 of 40",
+    "certainty": 0,
+    "source": "system monitor",
+    "timestamp": 89,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "38 of 40",
+      "22 of 40",
+      "40 of 40"
+    ],
+    "origin_id": "fact-008"
+  },
+  {
+    "fact_id": "fact-009",
+    "subject": "clinic ward 4",
+    "attribute": "night nurse",
+    "value": "Maria Garcia",
+    "certainty": 1,
+    "source": "project document",
+    "timestamp": 196,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": false,
+    "alternatives": [
+      "Ayesha Khan",
+      "Chen Wei",
+      "Fatima Noor"
+    ],
+    "origin_id": "fact-009"
+  },
+  {
+    "fact_id": "fact-010",
+    "subject": "clinic ward 4",
+    "attribute": "isolation rooms free",
+    "value": "3",
+    "certainty": 1,
+    "source": "team message",
+    "timestamp": 135,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "0",
+      "1",
+      "2"
+    ],
+    "origin_id": "fact-010"
+  },
+  {
+    "fact_id": "fact-011",
+    "subject": "server db-01",
+    "attribute": "disk usage",
+    "value": "92%",
+    "certainty": 0,
+    "source": "system monitor",
+    "timestamp": 124,
+    "day_precision": true,
+    "importance": 2,
+    "pinned": true,
+    "alternatives": [
+      "61%",
+      "74%",
+      "83%"
+    ],
+    "origin_id": "fact-011"
+  },
+  {
+    "fact_id": "fact-012",
+    "subject": "server db-01",
+    "attribute": "backup status",
+    "value": "skipped",
+    "certainty": 2,
+    "source": "team message",
+    "timestamp": 246,
+    "day_precision": true,
+    "importance": 3,
+    "pinned": false,
+    "alternatives": [
+      "completed",
+      "failed",
+      "running"
+    ],
+    "origin_id": "fact-012"
+  }
+]
